@@ -1,7 +1,8 @@
 package com.cydeo.repository;
 
-import com.example.accountingapp.entity.Company;
-import com.example.accountingapp.entity.User;
+
+import com.cydeo.entity.Company;
+import com.cydeo.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

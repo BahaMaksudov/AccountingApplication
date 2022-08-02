@@ -1,7 +1,8 @@
 package com.cydeo.entity;
 
-import com.example.accountingapp.enums.ProductStatus;
-import com.example.accountingapp.enums.Unit;
+
+import com.cydeo.enums.ProductStatus;
+import com.cydeo.enums.Unit;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

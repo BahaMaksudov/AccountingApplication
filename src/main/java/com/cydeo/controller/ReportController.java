@@ -1,8 +1,8 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.service.ExportPDFService;
-import com.example.accountingapp.service.ReportService;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.service.ExportPDFService;
+import com.cydeo.service.ReportService;
+import com.cydeo.service.UserService;
 import org.apache.commons.io.IOUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

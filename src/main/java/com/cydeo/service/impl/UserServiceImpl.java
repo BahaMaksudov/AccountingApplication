@@ -1,13 +1,13 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.dto.CompanyDTO;
-import com.example.accountingapp.dto.UserDTO;
-import com.example.accountingapp.entity.Company;
-import com.example.accountingapp.entity.User;
-import com.example.accountingapp.entity.common.UserPrincipal;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.UserRepository;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.dto.CompanyDTO;
+import com.cydeo.dto.UserDTO;
+import com.cydeo.entity.Company;
+import com.cydeo.entity.User;
+import com.cydeo.entity.common.UserPrincipal;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.UserRepository;
+import com.cydeo.service.UserService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

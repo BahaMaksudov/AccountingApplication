@@ -1,6 +1,7 @@
 package com.cydeo.repository;
 
-import com.example.accountingapp.entity.Company;
+
+import com.cydeo.entity.Company;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

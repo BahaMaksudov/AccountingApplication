@@ -1,7 +1,7 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.dto.CategoryDTO;
-import com.example.accountingapp.service.CategoryService;
+import com.cydeo.dto.CategoryDTO;
+import com.cydeo.service.CategoryService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

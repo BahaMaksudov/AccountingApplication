@@ -1,10 +1,10 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.dto.StockDetailsDTO;
-import com.example.accountingapp.entity.StockDetails;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.StockDetailsRepository;
-import com.example.accountingapp.service.StockDetailsService;
+import com.cydeo.dto.StockDetailsDTO;
+import com.cydeo.entity.StockDetails;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.StockDetailsRepository;
+import com.cydeo.service.StockDetailsService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

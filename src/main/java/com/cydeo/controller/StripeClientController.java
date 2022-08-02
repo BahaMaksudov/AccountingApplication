@@ -1,7 +1,7 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.dto.CreatePayment;
-import com.example.accountingapp.dto.CreatePaymentResponse;
+import com.cydeo.dto.CreatePayment;
+import com.cydeo.dto.CreatePaymentResponse;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
 import com.stripe.param.PaymentIntentCreateParams;

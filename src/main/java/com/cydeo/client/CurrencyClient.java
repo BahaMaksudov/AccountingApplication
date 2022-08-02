@@ -1,7 +1,8 @@
 package com.cydeo.client;
 
 
-import com.example.accountingapp.dto.client.Latest;
+
+import com.cydeo.dto.client.Latest;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 

@@ -1,11 +1,11 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.dto.CategoryDTO;
-import com.example.accountingapp.entity.Category;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.CategoryRepository;
-import com.example.accountingapp.service.CategoryService;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.dto.CategoryDTO;
+import com.cydeo.entity.Category;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.CategoryRepository;
+import com.cydeo.service.CategoryService;
+import com.cydeo.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

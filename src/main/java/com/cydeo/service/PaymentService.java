@@ -1,6 +1,6 @@
 package com.cydeo.service;
 
-import com.example.accountingapp.dto.PaymentDTO;
+import com.cydeo.dto.PaymentDTO;
 
 import java.util.List;
 

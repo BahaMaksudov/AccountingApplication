@@ -1,6 +1,6 @@
 package com.cydeo.config;
 
-import com.example.accountingapp.service.SecurityService;
+import com.cydeo.service.SecurityService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

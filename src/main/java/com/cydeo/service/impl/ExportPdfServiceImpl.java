@@ -1,7 +1,7 @@
 package com.cydeo.service.impl;
 
 
-import com.example.accountingapp.service.ExportPDFService;
+import com.cydeo.service.ExportPDFService;
 import com.lowagie.text.DocumentException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

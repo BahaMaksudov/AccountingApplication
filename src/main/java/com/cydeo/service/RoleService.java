@@ -1,6 +1,6 @@
 package com.cydeo.service;
 
-import com.example.accountingapp.dto.RoleDTO;
+import com.cydeo.dto.RoleDTO;
 
 import java.util.List;
 

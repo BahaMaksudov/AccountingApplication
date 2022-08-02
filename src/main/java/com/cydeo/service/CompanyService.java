@@ -1,7 +1,7 @@
 package com.cydeo.service;
 
-import com.example.accountingapp.dto.CompanyDTO;
-import com.example.accountingapp.entity.Company;
+import com.cydeo.dto.CompanyDTO;
+import com.cydeo.entity.Company;
 
 import java.math.BigDecimal;
 import java.util.List;

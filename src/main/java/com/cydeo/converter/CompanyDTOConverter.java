@@ -1,7 +1,7 @@
 package com.cydeo.converter;
 
-import com.example.accountingapp.dto.CompanyDTO;
-import com.example.accountingapp.service.CompanyService;
+import com.cydeo.dto.CompanyDTO;
+import com.cydeo.service.CompanyService;
 import org.springframework.boot.context.properties.ConfigurationPropertiesBinding;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.convert.converter.Converter;

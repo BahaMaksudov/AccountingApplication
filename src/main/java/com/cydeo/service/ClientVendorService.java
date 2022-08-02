@@ -1,7 +1,7 @@
 package com.cydeo.service;
 
-import com.example.accountingapp.dto.ClientVendorDTO;
-import com.example.accountingapp.enums.CompanyType;
+import com.cydeo.dto.ClientVendorDTO;
+import com.cydeo.enums.CompanyType;
 
 import java.util.List;
 

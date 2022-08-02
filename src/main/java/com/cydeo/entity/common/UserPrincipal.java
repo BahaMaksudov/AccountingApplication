@@ -1,7 +1,7 @@
 package com.cydeo.entity.common;
 
-import com.example.accountingapp.entity.Company;
-import com.example.accountingapp.entity.User;
+import com.cydeo.entity.Company;
+import com.cydeo.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

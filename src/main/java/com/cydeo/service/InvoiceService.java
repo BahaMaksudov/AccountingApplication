@@ -1,8 +1,8 @@
 package com.cydeo.service;
 
-import com.example.accountingapp.dto.InvoiceDTO;
-import com.example.accountingapp.entity.InvoiceProduct;
-import com.example.accountingapp.enums.InvoiceType;
+import com.cydeo.dto.InvoiceDTO;
+import com.cydeo.entity.InvoiceProduct;
+import com.cydeo.enums.InvoiceType;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.service.UserService;
+import com.cydeo.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

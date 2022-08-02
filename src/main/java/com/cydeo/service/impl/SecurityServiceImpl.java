@@ -1,9 +1,9 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.entity.User;
-import com.example.accountingapp.entity.common.UserPrincipal;
-import com.example.accountingapp.repository.UserRepository;
-import com.example.accountingapp.service.SecurityService;
+import com.cydeo.entity.User;
+import com.cydeo.repository.UserRepository;
+import com.cydeo.service.SecurityService;
+import com.cydeo.entity.common.UserPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;

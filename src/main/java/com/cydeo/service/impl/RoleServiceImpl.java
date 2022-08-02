@@ -1,9 +1,9 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.dto.RoleDTO;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.RoleRepository;
-import com.example.accountingapp.service.RoleService;
+import com.cydeo.dto.RoleDTO;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.RoleRepository;
+import com.cydeo.service.RoleService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

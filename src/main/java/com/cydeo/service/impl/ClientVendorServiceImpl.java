@@ -1,12 +1,12 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.dto.ClientVendorDTO;
-import com.example.accountingapp.entity.ClientVendor;
-import com.example.accountingapp.enums.CompanyType;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.ClientVendorRepository;
-import com.example.accountingapp.service.ClientVendorService;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.dto.ClientVendorDTO;
+import com.cydeo.entity.ClientVendor;
+import com.cydeo.enums.CompanyType;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.ClientVendorRepository;
+import com.cydeo.service.ClientVendorService;
+import com.cydeo.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,12 +1,12 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.dto.InvoiceDTO;
-import com.example.accountingapp.dto.InvoiceProductDTO;
-import com.example.accountingapp.enums.CompanyType;
-import com.example.accountingapp.enums.InvoiceType;
-import com.example.accountingapp.service.ClientVendorService;
-import com.example.accountingapp.service.InvoiceProductService;
-import com.example.accountingapp.service.InvoiceService;
+import com.cydeo.dto.InvoiceDTO;
+import com.cydeo.dto.InvoiceProductDTO;
+import com.cydeo.enums.CompanyType;
+import com.cydeo.enums.InvoiceType;
+import com.cydeo.service.ClientVendorService;
+import com.cydeo.service.InvoiceProductService;
+import com.cydeo.service.InvoiceService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

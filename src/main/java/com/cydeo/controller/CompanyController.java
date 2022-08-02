@@ -1,9 +1,9 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.dto.CompanyDTO;
-import com.example.accountingapp.enums.CompanyStatus;
-import com.example.accountingapp.enums.State;
-import com.example.accountingapp.service.CompanyService;
+import com.cydeo.dto.CompanyDTO;
+import com.cydeo.enums.CompanyStatus;
+import com.cydeo.enums.State;
+import com.cydeo.service.CompanyService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

@@ -1,7 +1,7 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.dto.ClientVendorDTO;
-import com.example.accountingapp.service.ClientVendorService;
+import com.cydeo.dto.ClientVendorDTO;
+import com.cydeo.service.ClientVendorService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -20,7 +20,7 @@ public class ClientVendorController {
     @GetMapping("/add")
     public String createClient(Model model) {
         model.addAttribute("client", new ClientVendorDTO());
-        model.addAttribute("states", com.example.accountingapp.enums.State.values());
+        model.addAttribute("states", com.cydeo.enums.State.values());
         return "/clientvendor/client-vendor-add";
     }
 
@@ -42,8 +42,8 @@ public class ClientVendorController {
 
     @GetMapping("/edit/{id}") //
     public String updateClient(@PathVariable("id") Long id, Model model) {
-        model.addAttribute("states", com.example.accountingapp.enums.State.values());
-        model.addAttribute("status", com.example.accountingapp.enums.ClientStatus.values());
+        model.addAttribute("states", com.cydeo.enums.State.values());
+        model.addAttribute("status", com.cydeo.enums.ClientStatus.values());
         model.addAttribute("client", clientVendorService.findById(id));
         return "/clientvendor/client-vendor-edit";
     }

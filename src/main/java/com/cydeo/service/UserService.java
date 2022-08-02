@@ -1,8 +1,8 @@
 package com.cydeo.service;
 
-import com.example.accountingapp.dto.CompanyDTO;
-import com.example.accountingapp.dto.UserDTO;
-import com.example.accountingapp.entity.Company;
+import com.cydeo.dto.CompanyDTO;
+import com.cydeo.dto.UserDTO;
+import com.cydeo.entity.Company;
 
 import java.util.List;
 

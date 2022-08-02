@@ -1,8 +1,8 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.dto.PaymentDTO;
-import com.example.accountingapp.service.CompanyService;
-import com.example.accountingapp.service.PaymentService;
+import com.cydeo.dto.PaymentDTO;
+import com.cydeo.service.CompanyService;
+import com.cydeo.service.PaymentService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

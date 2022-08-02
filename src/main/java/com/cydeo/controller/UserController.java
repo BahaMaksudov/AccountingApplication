@@ -1,11 +1,11 @@
 package com.cydeo.controller;
 
 
-import com.example.accountingapp.dto.UserDTO;
-import com.example.accountingapp.enums.UserStatus;
-import com.example.accountingapp.service.CompanyService;
-import com.example.accountingapp.service.RoleService;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.dto.UserDTO;
+import com.cydeo.enums.UserStatus;
+import com.cydeo.service.CompanyService;
+import com.cydeo.service.RoleService;
+import com.cydeo.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

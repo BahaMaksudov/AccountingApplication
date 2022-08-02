@@ -1,8 +1,9 @@
 package com.cydeo.entity;
 
 
-import com.example.accountingapp.enums.InvoiceStatus;
-import com.example.accountingapp.enums.InvoiceType;
+
+import com.cydeo.enums.InvoiceStatus;
+import com.cydeo.enums.InvoiceType;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

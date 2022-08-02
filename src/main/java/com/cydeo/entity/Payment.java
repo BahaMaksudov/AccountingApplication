@@ -1,6 +1,7 @@
 package com.cydeo.entity;
 
-import com.example.accountingapp.enums.PaymentMonth;
+
+import com.cydeo.enums.PaymentMonth;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

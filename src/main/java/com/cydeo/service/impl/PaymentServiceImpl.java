@@ -1,11 +1,11 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.dto.PaymentDTO;
-import com.example.accountingapp.entity.Payment;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.PaymentRepository;
-import com.example.accountingapp.service.PaymentService;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.dto.PaymentDTO;
+import com.cydeo.entity.Payment;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.PaymentRepository;
+import com.cydeo.service.PaymentService;
+import com.cydeo.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

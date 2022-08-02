@@ -1,7 +1,8 @@
 package com.cydeo.controller;
 
-import com.example.accountingapp.client.CurrencyClient;
-import com.example.accountingapp.service.ReportService;
+
+import com.cydeo.client.CurrencyClient;
+import com.cydeo.service.ReportService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,6 +22,7 @@ public class DashboardController {
         this.reportService = reportService;
         this.currencyClient = currencyClient;
     }
+
 
     @GetMapping("/dashboard")
     public String getDashboard(Model model){

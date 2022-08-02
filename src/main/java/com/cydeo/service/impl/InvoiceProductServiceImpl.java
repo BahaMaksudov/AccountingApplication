@@ -1,19 +1,19 @@
 package com.cydeo.service.impl;
 
 
-import com.example.accountingapp.dto.InvoiceProductDTO;
-import com.example.accountingapp.dto.ProductDTO;
-import com.example.accountingapp.entity.Invoice;
-import com.example.accountingapp.entity.InvoiceProduct;
-import com.example.accountingapp.entity.Product;
-import com.example.accountingapp.enums.InvoiceType;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.CompanyRepository;
-import com.example.accountingapp.repository.InvoiceProductRepository;
-import com.example.accountingapp.repository.InvoiceRepository;
-import com.example.accountingapp.repository.ProductRepository;
-import com.example.accountingapp.service.InvoiceProductService;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.dto.InvoiceProductDTO;
+import com.cydeo.dto.ProductDTO;
+import com.cydeo.entity.Invoice;
+import com.cydeo.entity.InvoiceProduct;
+import com.cydeo.entity.Product;
+import com.cydeo.enums.InvoiceType;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.CompanyRepository;
+import com.cydeo.repository.InvoiceProductRepository;
+import com.cydeo.repository.InvoiceRepository;
+import com.cydeo.repository.ProductRepository;
+import com.cydeo.service.InvoiceProductService;
+import com.cydeo.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;

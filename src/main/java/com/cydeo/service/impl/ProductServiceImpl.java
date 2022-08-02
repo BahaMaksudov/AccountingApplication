@@ -1,11 +1,11 @@
 package com.cydeo.service.impl;
 
-import com.example.accountingapp.dto.ProductDTO;
-import com.example.accountingapp.entity.Product;
-import com.example.accountingapp.mapper.MapperUtil;
-import com.example.accountingapp.repository.ProductRepository;
-import com.example.accountingapp.service.ProductService;
-import com.example.accountingapp.service.UserService;
+import com.cydeo.dto.ProductDTO;
+import com.cydeo.entity.Product;
+import com.cydeo.mapper.MapperUtil;
+import com.cydeo.repository.ProductRepository;
+import com.cydeo.service.ProductService;
+import com.cydeo.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.math.BigInteger;
